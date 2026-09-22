@@ -1,0 +1,22 @@
+{
+  "name": "tripmodu-auto-posting",
+  "version": "1.0.0",
+  "description": "트립모두(tripmodu.kr) 단체여행 전문 플랫폼을 위한 SEO & GEO AI 자동 포스팅 및 배포 시스템",
+  "main": "scripts/generate_post.mjs",
+  "type": "module",
+  "scripts": {
+    "post": "node scripts/generate_post.mjs",
+    "deploy": "python scripts/upload_to_hostinger.py",
+    "post:deploy": "node scripts/generate_post.mjs && python scripts/upload_to_hostinger.py"
+  },
+  "keywords": [
+    "tripmodu",
+    "group-travel",
+    "seo",
+    "geo",
+    "auto-posting",
+    "gemini"
+  ],
+  "author": "TripModu",
+  "license": "ISC"
+}

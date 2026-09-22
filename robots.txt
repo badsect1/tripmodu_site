@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# 최신 생성형 AI 검색 엔진 봇 허용 (GEO 최적화)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://tripmodu.kr/sitemap.xml

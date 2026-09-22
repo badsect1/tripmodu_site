@@ -1,0 +1,31 @@
+{
+  "siteName": "트립모두 | 공공기관 · 기업 · 단체여행 맞춤 솔루션",
+  "brandShort": "트립모두 (TripModu)",
+  "siteUrl": "https://tripmodu.kr",
+  "postsHubUrl": "https://tripmodu.kr/posts/",
+  "ctaUrl": "https://tripmodu.kr/#inquiry",
+  "ctaPhone": "1533-8054",
+  "ctaButtonText": "⚡ 우리 단체 맞춤 무료 견적 신청하기",
+  "ctaSecondaryText": "예산/인원/목적 맞춤 1:1 일정 설계 · 투명한 비교견적",
+  "companyInfo": {
+    "companyName": "(주)트립가자",
+    "brand": "트립모두 (TripModu)",
+    "ceo": "김승규",
+    "businessNumber": "530-81-02492",
+    "tourismNumber": "제2022-37호",
+    "mailOrderNumber": "제2022-서울강남-02972호",
+    "address": "서울시 강남구 테헤란로 116, 10층 1069호 (역삼동, 동경빌딩)",
+    "phone": "1533-8054",
+    "fax": "02-997-5671",
+    "email": "tripgaja@naver.com",
+    "hours": "평일 10:00 ~ 17:00 (점심 12:00 ~ 13:00, 주말/공휴일 휴무)"
+  },
+  "categories": [
+    { "id": "all", "name": "전체보기" },
+    { "id": "workshop", "name": "기업 워크샵 & 팀빌딩" },
+    { "id": "public", "name": "공공기관 & 지자체 연수" },
+    { "id": "association", "name": "협회 · 단체 · 동문회" },
+    { "id": "family", "name": "가족 · 친목 프라이빗 투어" },
+    { "id": "guide", "name": "총무 실무 & 예산 가이드" }
+  ]
+}
