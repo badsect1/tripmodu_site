@@ -39,7 +39,6 @@ jobs:
           git push origin main
 
       - name: 🚀 Hostinger SFTP 서버로 자동 배포
-        if: ${{ secrets.FTP_SERVER != '' && secrets.FTP_PASSWORD != '' }}
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
@@ -47,5 +46,10 @@ jobs:
           FTP_PORT: 65002
           FTP_REMOTE_DIR: domains/tripmodu.kr/public_html
         run: |
-          pip install paramiko
-          python scripts/upload_to_hostinger.py
+          if [ -n "$FTP_SERVER" ] && [ -n "$FTP_PASSWORD" ]; then
+            echo "🚀 Hostinger SFTP 배포 진행..."
+            pip install paramiko
+            python3 scripts/upload_to_hostinger.py
+          else
+            echo "ℹ️ FTP_SERVER 또는 FTP_PASSWORD가 설정되지 않아 호스팅어 배포를 건너뜁니다."
+          fi
