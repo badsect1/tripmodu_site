@@ -3,16 +3,22 @@
   <!-- 메인 홈페이지 -->
   <url>
     <loc>https://tripmodu.kr/</loc>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <!-- 단체여행 칼럼 허브 -->
   <url>
     <loc>https://tripmodu.kr/posts/</loc>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://tripmodu.kr/posts/gangwon-50p-benchmarking-workshop-guide/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tripmodu.kr/posts/gangwon-50p-family-workshop-guide/</loc>
